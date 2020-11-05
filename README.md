@@ -16,6 +16,7 @@ The size of an array is generally smaller than the number of possible keys given
 a. Linked Lists:
   In each element in the hash table there is a pointer to the head of a list. Any new object that maps to
   this element in the hash table, will be added to the end of this list.
+  
 b. Table Duplication
   We will build an implementation in which no more than t elements can be mapped to the same entry in
   the hash table. When we need to add an element to an index i where there are already t elements, go to
